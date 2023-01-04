@@ -31,7 +31,7 @@ const EmailVerify = () => {
                     <img src={success} alt="success_img" className={styles.success_img} />
                     <h1>Email verified successfully</h1>
                     <Link to="/login">
-                        <button className={styles.green_btn}>Login</button>
+                        <button className={styles.green_btn}>Login  </button>
                     </Link>
                 </div>
             ) : (
